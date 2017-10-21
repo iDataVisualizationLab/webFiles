@@ -23,6 +23,15 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+		<style type="text/css">
+			#parent {display: table}
+
+			#child {
+			  display: table-cell;
+			  vertical-align: middle;
+			  background-color: #ddb; 
+			 }
+ 		</style>
 	</head>
 	<body>
 
@@ -61,122 +70,120 @@
 
 				<section>
 					<p>Classification of Tree Layouts</p>
-					<table border="1" style="width:80%;">
-			        	<tr bgcolor="#aaa">
+					<table border="1" style="width:88%;">
+			        	<tr bgcolor="#ddb">
 			          	  <td></td>
-			              <td><center><small>Node-link</small></center></td>
-			              <td><center><small>Containment</small></center></td>
-			              <td><center><small>Stacking/Touching</small></center></td>   
+			              <td> <center>Node-link</center></td>
+			              <td><center>Containment</center></td>
+			              <td><center>Stacking/Touching</center></td>   
 			            </tr>
 			            <tr>
-			          	  <td bgcolor="#aaa" style="width:180px;" ><center><small>Linear Alignment</small></center></td>
-			              <td><img width="90%" border="1" data-src="week09/TableClassical.png"> <center><small>Classical</small></center></td>
-			              <td><img width="90%" border="1" data-src="week09/TableTreemap.png"><center><small>Treemap</small></center></td>
-			              <td><img width="90%" border="1" data-src="week09/TableIcicle.png"><center><small>Icicle</small></center></td>   
+			          	  <td id="child"><center>Linear Alignment</center></td>
+			              <td><img width="90%" border="1" data-src="week09/TableClassical.png"> <center>Classical</center></td>
+			              <td><img width="90%" border="1" data-src="week09/TableTreemap.png"><center>Treemap</center></td>
+			              <td><img width="90%" border="1" data-src="week09/TableIcicle.png"><center>Icicle</center></td>   
 			            </tr>
 			            <tr>
-			          	  <td bgcolor="#aaa"><center><small>Circular Alignment</small></center> </td>
-			              <td><img width="90%" border="1" data-src="week09/TableRadial.png"> <center><small>Radial</small></center></td>
-			              <td><img width="90%" border="1" data-src="week09/TableBalloon.png"><center><small>Balloon</small></center></td>
-			              <td><img width="90%" border="1" data-src="week09/TableCactus.png"><center><small>Cactus</small></center></td>   
+			          	  <td id="child"><center>Circular Alignment</center> </td>
+			              <td><img width="90%" border="1" data-src="week09/TableRadial.png"> <center>Radial</center></td>
+			              <td><img width="90%" border="1" data-src="week09/TableBalloon.png"><center>Balloon</center></td>
+			              <td><img width="90%" border="1" data-src="week09/TableCactus.png"><center>Cactus</center></td>   
 			            </tr>
 			        </table>  
 				</section>
 
 				<section>
 					<table border="1" style="width:100%;">
-			        	<tr bgcolor="#aaa">
+			        	<tr bgcolor="#ddb">
 			          	  <td></td>
-			              <td><center><small>Node-link</small></center></td>
-			              <td><center><small>Containment</small></center></td>
-			              <td><center><small>Stacking/Touching</small></center></td>   
+			              <td> <center>Node-link</center></td>
+			              <td><center>Containment</center></td>
+			              <td><center>Stacking/Touching</center></td>   
 			            </tr>
 			            <tr>
-			          	  <td bgcolor="#aaa" style="width:180px;" ><center><small>Linear Alignment</small></center></td>
-			              <td><img border="1" data-src="Study1/Classical2.png"></td>
-			              <td><img border="1" data-src="Study1/TreeMap2.png"></td>
-			              <td><img border="1" data-src="Study1/Icicle2.png"></td>   
+			          	  <td id="child"><center>Linear Alignment</center></td>
+			              <td><img data-src="Study1/Classical2.png"> </td>
+			              <td><img data-src="Study1/TreeMap2.png"></td>
+			              <td><img data-src="Study1/Icicle2.png"></td>   
 			            </tr>
 			            <tr>
-			          	  <td bgcolor="#aaa"><center><small>Circular Alignment</small></center> </td>
-			              <td><img border="1" data-src="Study1/Radial2.png"></td>
-			              <td><img border="1" data-src="Study1/CirclePacking2.png"></td>
-			              <td><img border="1" data-src="Study1/HCL2.png"></td>   
+			          	  <td id="child"><center>Circular Alignment</center> </td>
+			              <td> <img data-src="Study1/Radial2.png"></td>
+			              <td><img data-src="Study1/CirclePacking2.png"></td>
+			              <td><img data-src="Study1/HCL2.png"></td>   
 			            </tr>
 			        </table>  
 				</section>
 
 				<section>
 					<table border="1" style="width:100%;">
-			        	<tr bgcolor="#aaa">
+			        	<tr bgcolor="#ddb">
 			          	  <td></td>
-			              <td><center><small>Node-link</small></center></td>
-			              <td><center><small>Containment</small></center></td>
-			              <td><center><small>Stacking/Touching</small></center></td>   
+			              <td> <center>Node-link</center></td>
+			              <td><center>Containment</center></td>
+			              <td><center>Stacking/Touching</center></td>   
 			            </tr>
 			            <tr>
-			          	  <td bgcolor="#aaa" style="width:180px;" ><center><small>Linear Alignment</small></center></td>
-			              <td><img border="1" data-src="Study1/Classical3.png"> </td>
-			              <td><img border="1" data-src="Study1/TreeMap3.png"></td>
-			              <td><img border="1" data-src="Study1/Icicle3.png"></td>   
+			          	  <td id="child"><center>Linear Alignment</center></td>
+			              <td><img data-src="Study1/Classical3.png"> </td>
+			              <td><img data-src="Study1/TreeMap3.png"></td>
+			              <td><img data-src="Study1/Icicle3.png"></td>   
 			            </tr>
 			            <tr>
-			          	  <td bgcolor="#aaa"><center><small>Circular Alignment</small></center> </td>
-			              <td><img border="1" data-src="Study1/Radial3.png"></td>
-			              <td><img border="1" data-src="Study1/CirclePacking3.png"></td>
-			              <td><img border="1" data-src="Study1/HCL3.png"></td>   
+			          	  <td id="child"><center>Circular Alignment</center> </td>
+			              <td> <img data-src="Study1/Radial3.png"></td>
+			              <td><img data-src="Study1/CirclePacking3.png"></td>
+			              <td><img data-src="Study1/HCL3.png"></td>   
 			            </tr>
 			        </table>  
 				</section>
 
 				<section>
 					<table border="1" style="width:100%;">
-			        	<tr bgcolor="#aaa">
+			        	<tr bgcolor="#ddb">
 			          	  <td></td>
-			              <td><center><small>Node-link</small></center></td>
-			              <td><center><small>Containment</small></center></td>
-			              <td><center><small>Stacking/Touching</small></center></td>   
+			              <td> <center>Node-link</center></td>
+			              <td><center>Containment</center></td>
+			              <td><center>Stacking/Touching</center></td>   
 			            </tr>
 			            <tr>
-			          	  <td bgcolor="#aaa" style="width:180px;" ><center><small>Linear Alignment</small></center></td>
-			              <td><img border="1" data-src="Study1/Classical4.png"> </td>
-			              <td><img border="1" data-src="Study1/TreeMap4.png"></td>
-			              <td><img border="1" data-src="Study1/Icicle3.png"></td>   
+			          	  <td id="child"><center>Linear Alignment</center></td>
+			              <td><img data-src="Study1/Classical4.png"> </td>
+			              <td><img data-src="Study1/TreeMap4.png"></td>
+			              <td><img data-src="Study1/Icicle4.png"></td>   
 			            </tr>
 			            <tr>
-			          	  <td bgcolor="#aaa"><center><small>Circular Alignment</small></center> </td>
-			              <td><img border="1" data-src="Study1/Radial4.png"></td>
-			              <td><img border="1" data-src="Study1/CirclePacking4.png"></td>
-			              <td><img border="1" data-src="Study1/HCL4.png"></td>   
+			          	  <td id="child"><center>Circular Alignment</center> </td>
+			              <td> <img data-src="Study1/Radial4.png"></td>
+			              <td><img data-src="Study1/CirclePacking4.png"></td>
+			              <td><img data-src="Study1/HCL4.png"></td>   
 			            </tr>
 			        </table>  
 				</section>
 
 				<section>
-					<table border="1" style="width:100%;">
-			        	<tr bgcolor="#aaa">
+					<table border="1" style="width:94%;">
+			        	<tr bgcolor="#ddb">
 			          	  <td></td>
-			              <td><center><small>Node-link</small></center></td>
-			              <td><center><small>Containment</small></center></td>
-			              <td><center><small>Stacking/Touching</small></center></td>   
+			              <td> <center>Node-link</center></td>
+			              <td><center>Containment</center></td>
+			              <td><center>Stacking/Touching</center></td>   
 			            </tr>
 			            <tr>
-			          	  <td bgcolor="#aaa" style="width:180px;" ><center><small>Linear Alignment</small></center></td>
-			              <td><img border="1" data-src="Study1/Classical5.png"> </td>
-			              <td><img border="1" data-src="Study1/TreeMap5.png"></td>
-			              <td><img border="1" data-src="Study1/Icicle5.png"></td>   
+			          	  <td id="child"><center>Linear Alignment</center></td>
+			              <td><img data-src="Study1/Classical5.png"> </td>
+			              <td><img data-src="Study1/TreeMap5.png"></td>
+			              <td><img data-src="Study1/Icicle5.png"></td>   
 			            </tr>
 			            <tr>
-			          	  <td bgcolor="#aaa"><center><small>Circular Alignment</small></center> </td>
-			              <td><img border="1" data-src="Study1/Radial5.png"></td>
-			              <td><img border="1" data-src="Study1/CirclePacking5.png"></td>
-			              <td><img border="1" data-src="Study1/HCL5.png"></td>   
+			          	  <td id="child"><center>Circular Alignment</center> </td>
+			              <td> <img data-src="Study1/Radial5.png"></td>
+			              <td><img data-src="Study1/CirclePacking5.png"></td>
+			              <td><img data-src="Study1/HCL5.png"></td>   
 			            </tr>
 			        </table>  
-				</section>
-				
+				</section>	
 			</div>
-
 		</div>
 
 		<script src="lib/js/head.min.js"></script>

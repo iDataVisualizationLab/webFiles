@@ -196,7 +196,9 @@ body {
   display: inline-block;
   font-size: 0.6em;
   line-height: 1.2em;
-  vertical-align: top; }
+  /*vertical-align: top; 
+*/
+}
 
 .reveal small * {
   vertical-align: top; }
@@ -224,7 +226,7 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-  margin: 15px 0px;
+  margin: 0px 0px;
   background: rgba(255, 255, 255, 0.12);
   border: 0px solid #222;
   }
