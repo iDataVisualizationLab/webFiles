@@ -2,9 +2,9 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>STOAViz</title>
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<title>Cactus Study</title>
+		<meta name="description" content="A User Study of Techniques for Visualizing Structure and Connectivity in Hierarchical Datasets">
+		<meta name="author" content="Tommy Dang">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -50,7 +50,6 @@
 					     <td align="center">Ronak Etemadpour<br> <small>City College, CUNY, New York, NY, USA</small></td>
 					      <td align="center">Angus G. Forbes<br> <small>University of California, Santa Cruz, CA, USA </small></td>
 					  </tr>
-
 					</table>
 				</section>
 
@@ -65,9 +64,14 @@
 				</section>	
 				
 				<section>
+					<img width="100%" border="0" data-src="papers/Cactus_VOILA_2017/HEB.png">
+				</section>
+
+				<section>
 					<img width="100%" border="0" data-src="papers/Cactus_VOILA_2017/figures/Teaser.png">
 				</section>
 
+				
 				<section>
 					<p>Classification of Tree Layouts</p>
 					<table border="1" style="width:88%;">
@@ -183,6 +187,68 @@
 			            </tr>
 			        </table>  
 				</section>	
+
+				<section>
+					<b>Classifying Tree Layouts</b> <br> <br>
+					<ol>
+					  <li>Hierarchical relationship: Node-link vs. containment vs. stacking
+					  	<ul>
+						  	<li><small>Node-link (drawing a link)</small></li>
+						  	<li><small>Containment (nesting children within the parent)</small></li>
+						  	<li><small>Stacking (having a spatial area of the child touching its parent)</small></li>
+					  	</ul>
+					  </li> <br>
+					  
+					  <li> Shape preservation: Stable vs. malleable structure<br>
+					  	<small>How a subtree appears is affected by the structure of the tree and where it locates in the tree</small></li><br>
+					  <li> Space-centric filling: Root-centric vs. parent-centric<br>
+					 <small>For example, Radial Layout is root-centric since the distribution of leaf nodes are computed with respect to the root node</small></li><br>
+					  
+					  <li>Bundling angularity: Wide turns vs. sharp turns.</li>
+					</ol>		
+				</section>
+
+				<section>
+					Bundling angularity: Wide turns vs. sharp turns<br> <br><br>
+ 					
+					<img width="100%" data-src="CactusFigures/Cactus1.png">		
+					<br>
+					<small> Longer paths with hairpin curves require more effort to trace.</small>
+				</section>
+
+				<section>
+					<b>User Study</b> <br> <br>
+
+				</section>
+					
+				<section>
+					<b>Visualization Tasks</b> <br> <br>
+					<ul>
+					  <li>Through discussions with systems biologists, taxonomists, and ontology researchers, we identified two primary tasks important for visual exploration of hierarchical datasets: <br><br>
+					  	<ul>
+						  	<li> <b>T1: Effectively characterize hierarchical structure</b><br>
+						  		<small>In taxonomic and ontological alignment domains, hierarchies can get extremely complicated. More importantly, these classifications can be contentious, and they may change from year to year as new discoveries or interpretations are made [13]</small></li>
+						  	<br>
+						  	<li><b>T2: Minimize ambiguity introduced by edge bundling</b><small>When HEB is applied, tracing a bundled link can lead to the perception of incorrect connectivity. <br>For some tree layouts the loss in detail can be amplified depending on various factors, such as the chosen visual encodings and the overall structure of the tree.</small></li>
+					  	</ul>
+					  </li> <br>
+					</ul>		
+				</section>
+
+				<section>
+					<b>Our controlled experiments</b> <br> <br>
+					<ul>
+					  <li>Through discussions with systems biologists, taxonomists, and ontology researchers, we identified two primary tasks important for visual exploration of hierarchical datasets: <br><br>
+					  	<ul>
+						  	<li> <b>T1: Effectively characterize hierarchical structure</b><br>
+						  		<small>In taxonomic and ontological alignment domains, hierarchies can get extremely complicated. More importantly, these classifications can be contentious, and they may change from year to year as new discoveries or interpretations are made [13]</small></li>
+						  	<br>
+						  	<li><b>T2: Minimize ambiguity introduced by edge bundling</b><small>When HEB is applied, tracing a bundled link can lead to the perception of incorrect connectivity. <br>For some tree layouts the loss in detail can be amplified depending on various factors, such as the chosen visual encodings and the overall structure of the tree.</small></li>
+					  	</ul>
+					  </li> <br>
+					</ul>		
+				</section>
+				
 			</div>
 		</div>
 
